@@ -84,3 +84,7 @@ body {
 #others-amount {
     margin-bottom: 50px;
 }
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.295);
+}
