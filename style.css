@@ -37,7 +37,7 @@ body {
 
 /*Donatation Section*/
 .title-area h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     color: black;
     margin-bottom: 10px;
@@ -167,4 +167,52 @@ body {
 .lives-area2 {
     padding-left: 2%;
     padding-right: 0;
+}
+
+/*Subscribe Area section*/
+.subscribe-area {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.subscribe-form {
+    background-color: rgba(255, 127, 80, 0.226);
+    padding: 80px 100px;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.subscribe-form input {
+    font-weight: 700;
+    padding: 15px 20px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.subscribe-form a {
+    border-radius: 0 5px 5px 0;
+    width: 30%;
+}
+
+/*Footer Area*/
+.footer-area {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.footer-area h3 {
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+.footer-area p {
+    font-size: 15px;
+    color: rgb(201, 201, 201);
 }
